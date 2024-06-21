@@ -1,0 +1,35 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100svw;
+  height: 100svh;
+  background-color: white;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  border-bottom: 10svh;
+  border-color: gray;
+  background-image: linear-gradient(135deg, #fce4ec, #fff8dc);
+}
+
+.confetti {
+  width: 0;
+  height: 100%;
+  left: 50svh;
+  border: 1px
+}
+
+.minjae {
+  position: absolute;
+  bottom: 10svh;
+  height: 60svh;
+  max-height: 60svw;
+}
+
+.block {
+  position: absolute;
+  background-color: rgb(31, 31, 31);
+  max-height: 26.5svw;
+  height: calc(10svh + min(5svw, 0svh)); 
+  width: 100svw;
+}
